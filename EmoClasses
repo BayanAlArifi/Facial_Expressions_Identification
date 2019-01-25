@@ -1,0 +1,7 @@
+classdef (l1 = {1, 2}, l2 = ) Happiness
+    
+end
+
+classdef (l1 = {1, 2}, l2 = ) Happiness
+    
+end
