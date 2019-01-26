@@ -24,12 +24,16 @@ human-machine interaction (HMI). The importance of facial expressions in inter-h
 Traditionally, facial expression recognition systems attempt to recognize a discrete set of facial expressions. This set usually includes six 'basic' emotions: anger, disgust, fear, happiness, sadness and surprise. However, the number of possible facial expressions that humans can use numbers about 10,000, many of which cannot be put in one of the six basic emotion categories (think for example of expressions of boredom, 'I don't know', or a brow-flash greeting). In addition, there is more than one ways to display the same feeling or emotion. Therefore, describing a facial expression in such loose terms as 'happy', 'sad' or 'surprised' is certainly not very exact, greatly depending on who is describing the currently displayed facial expression while leaving a large variation of displayed expressions possible within the emotion classes. The activation of the facial muscles on the other hand can be described very precisely, as each muscle or group of muscles can be said to be either relaxed or contracted at any given time. As every human has the same configuration of facial muscles, describing a facial expression in terms of facial muscle activations would result in the same description of a facial expression, regardless of the person displaying the expression and regardless of who was asked to describe the facial expression. The Facial Action Coding System [FACS](P. Ekman and W.V. Friesen, The Facial Action Coding System: A Technique for the Measurement of Facial
 Movement, San Francisco: Consulting Psychologist, 1978), proposed by psychologists Ekman and Friesen, describes all the possible facial muscle (de)activations that cause a visible change in the appearance of the face. Every muscle activation that causes visible appearance changes is called an Action Unit (AU). The FACS consists of 44 AUs (see Fig. 1 for examples).
 
-![image.png](https://github.com/BayanAlArifi/Facial_Expressions_Identification/blob/master/Resources/AUs.png)
+<p align="center">
+  <img src="https://github.com/BayanAlArifi/Facial_Expressions_Identification/blob/master/Resources/AUs.png">
+</p>
 
 ### Action Units and emotions
 The  same  psychologists  w ho  proposed  the  FACS  also  claimed  that  there  existsix 'basic' emotions (anger, disgust, fear, happiness, sadness and surprise) that are universally displayed and  recognized  in  the  same  w ay.  As  w e  already  mentioned,  many  research  groups  have proposed  systems that are able to recognize these six basicemotions. Almost all proposed emotion  detectors  recognize  emotions  directly  from  raw   data.  In  this CBCw e w ill use a different  approach  to  emotion  detection.  Instead of  directly  classifying  a  set  of  features extracted from the images intoemotioncategories, we w ill use AUs as an intermediate layer  of abstraction. The rules that map AUs present in a facial expression into one of the six basic  emotions are givenin Table 1. In this CBCw e w ill not use these rules directly but instead w e w ill try to learn emotional classification of AUsusing different machine learning techniques.  Also, in this CBCw e consider the step of AU detection to be solved. Students are provided w ith a dataset that consistsof a list of AUs and the corresponding emotion label.
 
-![image.png](https://github.com/BayanAlArifi/Facial_Expressions_Identification/blob/master/Resources/example.png)
+<p align="center">
+  <img src="https://github.com/BayanAlArifi/Facial_Expressions_Identification/blob/master/Resources/example.png">
+</p>
 
 <a id='data'></a>
 ### DATA
