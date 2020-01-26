@@ -14,7 +14,7 @@
 ## Introduction
 A hands-on experience in implementing and testing basic machine learning techniques. The techniques that will be examined are Decision Trees (DT) amd Artificial Neural Networks (ANN). Each of these techniques will be used in order to identify six basic emotions from the
 human facial expressions (anger, disgust, fear, happiness, sadness and surprise) based on a labelled set of facial Action Units (AUs). The latter correspond to contractions of human facial muscles, which underlie each and every facial expression, including facial expressions
-of the six basic emotions. The implementation of the aforementioned techniques requires understanding of these techniques. For this reason, following the lectures of the course is strongly advised.
+of the six basic emotions. The implementation of the aforementioned techniques requires understanding of these techniques.
 
 ## The Facial Action Coding System and the basic emotions
 One of the great challenges of our times in computer science research is the automatic recognition of human facial expressions. Machines capable of performing this task have many applications in areas as diverse as behavioural sciences, security, medicine, gaming and
